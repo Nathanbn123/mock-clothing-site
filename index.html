@@ -20,19 +20,19 @@
             <div class="shirtSizes">
               <div class="radio">
                 <label>
-                  <input type="radio" name="size1" value="small">
+                  <input type="radio" name="shirt" value="Small">
                   Small
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="size1" value="medium">
+                  <input type="radio" name="shirt" value="Medium">
                   Medium
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="size1" value="large">
+                  <input type="radio" name="shirt" value="Large">
                   Large
                 </label>
               </div>
@@ -43,19 +43,19 @@
             <div class="pantSizes">
               <div class="radio">
                 <label>
-                  <input type="radio" name="size2" value="small">
+                  <input type="radio" name="cargo" value="small">
                   Small
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="size2" value="medium">
+                  <input type="radio" name="cargo" value="medium">
                   Medium
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="size2" value="large">
+                  <input type="radio" name="cargo" value="large">
                   Large
                 </label>
               </div>
@@ -66,19 +66,19 @@
             <div class="slideSizes">
               <div class="radio">
                 <label>
-                  <input type="radio" name="size3" value="seven">
+                  <input type="radio" name="slide" value="7">
                   7
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="size3" value="ten">
+                  <input type="radio" name="slide" value="10">
                   10
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="size3" value="twelve">
+                  <input type="radio" name="slide" value="12">
                   12
                 </label>
               </div>
@@ -96,8 +96,14 @@
         <h6>811 NW Ulysses Blvd<br>Portland, OR 97211</h6>
         <h6>(503)555-1234</h6>
         <br>
+        
+        <p id="content">Your Order:
+        <p>Shirt - size: <span id="shirt"></span></p>
+        <p>Shorts - size: <span id="cargo"></span></p>
+        <p>Slides - size: <span id="slide"></span></p>
+        </p>
 
-        <p id="content">Your Order:</p>
+
         <br>
         <p>Thank you, <span class="customer"></span> for your business.</p>
         <p>Shipping address:<br><span class="address"></span></p>
