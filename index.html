@@ -13,30 +13,94 @@
       <h1 class="jumbotron">Ropas</h1>
 
 
-
-
-
-
-
-
-
-      <div>
-        <form id="orderForm">
+      <form id="orderForm">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="img/whiteshirt.jpg" alt="awful shirt image">
+            <div class="shirtSizes">
+              <div class="radio">
+                <label>
+                  <input type="radio" name="size1" value="small">
+                  Small
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="size1" value="medium">
+                  Medium
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="size1" value="large">
+                  Large
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img src="img/cargo.jpeg" alt="awful shorts image">
+            <div class="pantSizes">
+              <div class="radio">
+                <label>
+                  <input type="radio" name="size2" value="small">
+                  Small
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="size2" value="medium">
+                  Medium
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="size2" value="large">
+                  Large
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img src="img/slides.jpg" alt="awful slides image">
+            <div class="slideSizes">
+              <div class="radio">
+                <label>
+                  <input type="radio" name="size3" value="seven">
+                  7
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="size3" value="ten">
+                  10
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="size3" value="twelve">
+                  12
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="information">
           <input id="customer" placeholder="Full Name" required>
           <input id="address" placeholder="Mailing Address" required>
           <button type="submit" class="btn">Submit Order</button>
-        </form>
       </div>
+      </form>
       <div id="receipt">
         <h2>Ropas</h2>
         <h6>811 NW Ulysses Blvd<br>Portland, OR 97211</h6>
         <h6>(503)555-1234</h6>
         <br>
 
-        <p id="content">content</p>
+        <p id="content">Your Order:</p>
         <br>
         <p>Thank you, <span class="customer"></span> for your business.</p>
-        <p>Shipping address:<span class="address"></span></p>
+        <p>Shipping address:<br><span class="address"></span></p>
       </div>
 
 
